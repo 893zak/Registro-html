@@ -1,0 +1,115 @@
+*{
+    font-family: 'roboto';
+    box-sizing: border-box;
+}
+
+.form{
+    width: 515px;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto
+}
+
+.Title{
+    color: #3F3D56;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 68px;
+    margin-bottom: 22px;
+}
+
+.box-name{
+    margin-bottom: 24px;
+}
+
+.label-text{
+    height: 47px;
+    width: 396px;
+    border-radius: 0px;
+    border: 1px solid #ABB3A8;
+    margin-top: 4px;
+}
+
+.date-box{
+    height: 47px;
+    width: 170px;
+    margin-right: 18px;  
+    border: 1px solid #ABB3A8;
+    box-sizing: border-box;
+    float: none;
+    margin-right: 18px;
+    margin-bottom: 22px;
+}
+
+.county-box{
+    height: 47px;
+    width: 208px;
+    border: 1px solid #ABB3A8;
+    margin-right: 103px;
+}
+
+.Name-margin{
+    margin-right: 40px;
+}
+
+.box-gender-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.terms{
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.create{
+    height: 47px;
+    width: 396px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3F3D56;
+    color: white;
+}
+
+.gender-margin{
+    margin-bottom: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.terms-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.margin-box{
+    margin-top: 9px;
+    margin-bottom: 4px;
+}
+
+.terms-checkbox{
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.terms-3{
+    text-align: center;
+    justify-content: center;
+    margin-right: 107px;
+    margin-top: 28px;
+}
+
+.box{
+    margin-top: 22px;
+}
