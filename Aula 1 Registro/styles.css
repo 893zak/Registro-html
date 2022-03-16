@@ -1,0 +1,22 @@
+*{
+    font-family:'Roboto';
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.box{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Botao{
+    width: 200px;
+    font-size: larger;
+    color:black ;
+    background-color: #2dd999;
+    font-display: initial;
+    border: 0px;
+    border-radius: 10px;
+}
