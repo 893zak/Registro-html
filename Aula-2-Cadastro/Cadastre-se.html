@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <div class="wrapper">
+    <h1 class="title">Faça Seu Cadastro</h1>
+
+    <form action="sign-up" class="form">
+
+      <label for="name" class="nome">Nome Completo</label> <br />
+      <input type="text" id="name" name="name" placeholder="Digite Seu Nome Completo" class="Label-style"/><br />
+      
+      <div class="wrapper2">
+        <label for="data">Data De Nascimento</label> <br />
+        <label for="pais" class="nome ">País</label>
+        
+        <div class="date">
+
+          <input type="date" name="data" id="data" class="Label1"/>
+          
+        </div>
+        <div class="pais">
+          
+          <select name="pais" id="pais" class="Label1">
+            <option value="Brasil">Brasil</option>
+            <option value="Russia">Russia</option>
+            <option value="EUA">EUA</option>
+          </select>  <br>
+
+        </div>
+        
+      </div>
+
+      <label for="genero" class="nome">Genero:</label> <br />
+      <input type="radio" name="radio" id="fem" class="gender-select" />
+      Masculino
+      <input type="radio" name="radio" id="mas" class="gender-select" />
+      Feminino
+      <input type="radio" name="radio" id="not" class="gender-select" />
+      Nao especificar <br>
+
+      <label for="email" class="nome" 
+        >Insira Seu E-mail</label
+      > <br>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Digite Seu E-mail"
+        required
+        class="Label-style"
+      /> <br>
+      <label for="password" class="nome">Senha</label> <br>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Digite Sua Senha"
+        required
+        class="Label-style"
+      /> <br>
+      <label for="verify-password" class="nome">Confirme Sua Senha</label> <br>
+      <input
+        type="password"
+        name="verify-password"
+        id="verify-password"
+        placeholder="Confirme Sua Senha"
+        class="Label-style"
+      /> <br>
+      <input type="checkbox" name="accept" id="accept" class="" />
+      <span class="terms"
+        >Aceito Os<a href="#">Termos e Condiçoes</a> E Concordo Com as
+        <a href="#"> Politicas De Privadicidade</a> Do HTC</span
+      > <br>
+      <button type="submit" class="button-submit">Criar Conta</button> <br>
+      <span class=""
+        >Já tem uma conta no Hall To Code? <a href="login.html">Entre agora</a></span
+      >
+    </form>
+  </div>
+  </body>
+</html>
