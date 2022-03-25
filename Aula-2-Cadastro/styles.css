@@ -16,6 +16,10 @@
     margin-bottom: 22px;
 }
 
+.box-space{
+    margin-left: 20px;
+}
+
 .nome{
 font-family: 'Roboto';
 font-size: 14px;
@@ -49,7 +53,19 @@ color: white;
 border: none;
 margin-top: 28px;
 margin-bottom: 28px;
+padding: 0px;
 }
+
+.button-submit2{
+    height: 47px;
+    width: 396px;
+    border-radius: 5px;
+    background-color:#3F3D56;
+    color: white;
+    border: none;
+    margin-bottom: 25px;
+    padding: 0px;
+    }
 
 .terms{
 justify-content: center;
@@ -61,11 +77,33 @@ line-height: 18px;
 }
 
 .date{
-display: flex;
-float: left;
+    float: left;
+}
+
+.Label-style1{
+    height: 47px;
+width: 208px;
+top: 22px;
+margin-left: 18px;
+}
+
+.name-space{
+    margin-left: 18px;
+}
+
+.gender-box{
+    margin-bottom: 23px;
+    margin-top: 9px;
 }
 
 .gender-select{
-    margin-top: 9px;
-    margin-bottom: 22px;
+    width: 35px;
+    justify-content: space-between;
+}
+
+.nada{
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
