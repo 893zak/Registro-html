@@ -14,6 +14,12 @@
     text-align: center;
     font-weight: 700;
     margin-bottom: 22px;
+
+    animation-name: Titulo-animation;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
 }
 
 .box-space{
@@ -34,6 +40,12 @@ height: 47px;
 width: 396px;
 top: 22px;
 margin-bottom: 24px;
+border: 1px solid black;
+
+animation-name: button-animation;
+animation-duration: 3s;
+animation-iteration-count: 3;
+animation-direction: alternate;
 }
 
 .Label1{
@@ -54,6 +66,22 @@ border: none;
 margin-top: 28px;
 margin-bottom: 28px;
 padding: 0px;
+cursor: pointer;
+border: 1px solid black;
+transition: 300ms;
+
+animation-name: button-animation;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+
+.button-submit:hover{
+    background-color: white;
+    color: #3F3D56;
+    border: 1px solid black;
 }
 
 .button-submit2{
@@ -106,4 +134,38 @@ margin-left: 18px;
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+@keyframes button-animation {
+    
+    0% {
+       border: 1px solid #3F3D56;
+    }
+
+    50% {
+        border: 1px solid white;
+    }
+
+    100% {
+        border: 1px solid white;
+    }
+}
+
+@keyframes Titulo-animation {
+
+    30% {
+        color: #3F3D56;
+        letter-spacing: 30px;
+    }
+
+    60% {
+        color: #3F3D56;
+        letter-spacing: 20px; 
+    }
+
+    75%{
+        color: #3F3D56;
+        letter-spacing: 10px;
+    }
+
 }
