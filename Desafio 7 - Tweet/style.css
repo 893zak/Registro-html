@@ -24,7 +24,6 @@ body{
     display: flex;
     border: 1px solid;
     margin: auto;
-
 }
 
 .container{
@@ -94,8 +93,6 @@ h2{
     margin-right: 84px;
     display: flex;
     text-align: left;
-
-
 }
 
 .box{
@@ -130,4 +127,96 @@ h2{
 
 span{
     color: #536471;
+}
+
+@media screen and (max-width: 400px){
+
+        .text-cont{
+            font-size: 20px;
+            color: #0F1419;
+            font-weight: 400;
+            margin-bottom: 16px;
+            margin-left: 12px;
+            display: flex;
+            margin-right: 84px;
+            display: flex;
+            text-align: left;
+        }
+        .content{
+            width: 80%;
+            height: 190px;
+            padding: 10px;
+            display: flex;
+            border: 1px solid;
+            margin: auto;
+        }
+}
+
+@media screen and (max-width: 520px){
+
+    .text-cont{
+        font-size: 25px;
+        color: #0F1419;
+        font-weight: 400;
+        margin-bottom: 16px;
+        margin-left: 12px;
+        display: flex;
+        margin-right: 84px;
+        display: flex;
+        text-align: left;
+    }
+    .content{
+        width: 80%;
+        height: 190px;
+        padding: 10px;
+        display: flex;
+        border: 1px solid;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 960px){
+
+    .text-cont{
+        font-size: 25px;
+        color: #0F1419;
+        font-weight: 400;
+        margin-bottom: 16px;
+        margin-left: 12px;
+        display: flex;
+        margin-right: 84px;
+        display: flex;
+        text-align: left;
+    }
+    .content{
+        width: 80%;
+        height: 190px;
+        padding: 30px;
+        display: flex;
+        border: 1px solid;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .text-cont{
+        font-size: 25px;
+        color: #0F1419;
+        font-weight: 400;
+        margin-bottom: 16px;
+        margin-left: 12px;
+        display: flex;
+        margin-right: 84px;
+        display: flex;
+        text-align: left;
+    }
+    .content{
+        width: 80%;
+        height: 190px;
+        padding: 30px;
+        display: flex;
+        border: 1px solid;
+        margin: auto;
+    }
 }
