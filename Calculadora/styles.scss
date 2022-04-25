@@ -1,0 +1,60 @@
+@import './css/_reset.scss';
+
+.calculator{ 
+    width: 390px;
+    background-color: $black;
+
+    &__display{
+        width: 100%;
+    }
+
+    &__display-result{
+        color: $lightgrey;
+    }
+
+    &__display-input{
+        background: transparent;
+        border: 0;
+        outline: transparent;
+        color: white;
+    }
+    &__buttons-row{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 20px;
+        transition: 300ms;
+    }
+    
+    &__button--buttons{
+        height: 75px;
+        width: 73px;
+        border-radius: 9px;
+        font-size: 35px;
+        background-color: $grey;
+        color: white;
+        padding: 0;
+        border: none;
+        font-style: 400;
+        cursor: pointer;
+        transition: 300ms;
+    }
+    &__button--buttons:hover{
+        background-color: $lightgrey;
+    }
+
+    &__button--background-red{
+        background-color: $red;
+    }
+
+    &__button--color-green{
+        color: $green;
+    }
+
+    &__button-background-green{
+        background-color: $green;
+    }
+
+
+}
+

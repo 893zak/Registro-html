@@ -1,0 +1,55 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Calculadora</title>
+</head>
+<body>
+    <article class="container calculator">
+        <div class="calculator__display">
+            <input type="text" id="display" class="calculator__display-input" value="2+7">
+            <div class="calculator__display-result">9
+            </div>
+        </div>
+        <div class="calculator__callback">
+            <img src="./assets/Time Machine.png" alt="Ver historico de resultados">
+        </div>
+            <div class="calculator__buttons-wrapper">
+                <div class="calculator__buttons-row">
+                    <button class="calculator__button--buttons calculator__button--background-red" id="btn-C">C</button>
+                    <button class="calculator__button--buttons calculator__button--color-green" id="btn-()">()</button>
+                    <button class="calculator__button--buttons calculator__button--color-green" id="btn-%">%</button>
+                    <button class="calculator__button--buttons calculator__button--color-green" id="btn-div">/</button>
+                </div>
+            <div class="calculator__buttons-row">
+                <button class="calculator__button--buttons" id="btn-7">7</button>
+                <button class="calculator__button--buttons" id="btn-8">8</button>
+                <button class="calculator__button--buttons" id="btn-9">9</button>
+                <button class="calculator__button--buttons calculator__button--color-green" id="btn-mult">*</button>
+            </div>
+            <div class="calculator__buttons-row">
+                <button class="calculator__button--buttons" id="btn-4">4</button>
+                <button class="calculator__button--buttons" id="btn-5">5</button>
+                <button class="calculator__button--buttons" id="btn-6">6</button>
+                <button class="calculator__button--buttons calculator__button--color-green" id="btn-sub">-</button>
+            </div>
+            <div class="calculator__buttons-row">
+                <button class="calculator__button--buttons" id="btn-1">1</button>
+                <button class="calculator__button--buttons" id="btn-2">2</button>
+                <button class="calculator__button--buttons" id="btn-3">3</button>
+                <button class="calculator__button--buttons calculator__button--color-green" id="btn-add">+</button>
+            </div>
+            <div class="calculator__buttons-row">
+                <button class="calculator__button--buttons" id="btn-+/-">+/-</button>
+                <button class="calculator__button--buttons" id="btn-0">0</button>
+                <button class="calculator__button--buttons" id="btn-dot">.</button>
+                <button class="calculator__button--buttons calculator__button-background-green" id="btn-eq">=</button>
+            </div>
+        </div>
+    </article>
+</body>
+</html>
